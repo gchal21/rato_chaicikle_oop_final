@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-color: #FFF455;
+}
+
+.border_box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 0.30fr;
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    background-color: #FFC700;
+    height: 100%;
+
+    overflow-y: auto;
+}
+
+.content_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.title_wrapper{
+    padding: 35px 50px 35px 50px;
+}
+
+.title{
+    color: #EE4E4E;
+    font-size: 48px;
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 30px 0;
+}
+
+.sidebar_header > p{
+    color: white;
+    font-size: 3em;
+}
