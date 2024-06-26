@@ -1,0 +1,77 @@
+.messages_container {
+    display: flex;
+    flex-flow: column;
+    padding: 20px 30px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.messages_header {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.no_message {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.message_wrapper {
+    height: 100px;
+    background-color: #219C90;
+    border-radius: 20px;
+    padding: 15px 5px 15px 20px;
+    margin-bottom: 15px;
+}
+
+.message_wrapper > div {
+    overflow-y: auto;
+    box-sizing: border-box;
+    height: 100%;
+    padding-right: 10px;
+}
+
+/* Custom scrollbar styles */
+.message_wrapper > div::-webkit-scrollbar,
+.messagebox::-webkit-scrollbar {
+    width: 12px;
+}
+
+.message_wrapper > div::-webkit-scrollbar-track,
+.messagebox::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.message_wrapper > div::-webkit-scrollbar-thumb,
+.messagebox::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.message_wrapper > div::-webkit-scrollbar-thumb:hover,
+.messagebox::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.messagebox {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.message_wrapper > div > div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+
+.message_wrapper > div > div > span {
+    color: white;
+}
+
+.message_wrapper > div > p {
+    color: white;
+    font-style: italic;
+}
