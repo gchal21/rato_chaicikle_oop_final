@@ -15,7 +15,7 @@
         <div class="title_wrapper">
             <p class="title itim-regular">QUIZIFY</p>
         </div>
-
+        <jsp:include page="./navbar.jsp"/>
 
     </section>
     <section class="sidebar">

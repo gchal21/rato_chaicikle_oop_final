@@ -1,0 +1,27 @@
+.navbar_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navbar_wrapper > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar_wrapper > div:nth-of-type(2){
+    padding-right: 92px;
+}
+
+.navbar_wrapper > div > a{
+    color: #EE4E4E;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.decorate_underline{
+    text-decoration: underline;
+}
